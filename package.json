@@ -1,0 +1,14 @@
+{
+  "name": "pdp-mobile",
+  "version": "1.0.0",
+  "description": "PDP mobile test app",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass src/styles/main.scss styles.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
