@@ -3,39 +3,38 @@
 *::after {
   box-sizing: border-box; }
 
-body h1,
-body h2,
-body h3,
-body h4,
-body h5,
-body h6 {
-  font-family: Helvetica, sans-serif;
-  font-weight: bold; }
-
-body p,
-body nav,
-body ul,
-body li,
-body a,
-body span {
-  font-family: Helvetica, sans-serif;
-  font-weight: normal;
-  color: #5b5a5a; }
-
-body a {
-  color: #5b5a5a;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: Helvetica, sans-serif; }
-
-body hr {
-  border-top: 1px solid #dbdbdb;
-  border-bottom: 0;
-  border-left: 0;
-  border-right: 0;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em; }
+body {
+  width: inherit; }
+  body h1,
+  body h2,
+  body h3,
+  body h4,
+  body h5,
+  body h6 {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold; }
+  body p,
+  body nav,
+  body ul,
+  body li,
+  body a,
+  body span {
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    color: #5b5a5a; }
+  body a {
+    color: #5b5a5a;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif; }
+  body hr {
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em; }
 
 h1 {
   text-align: center;
@@ -56,7 +55,7 @@ h4 {
     max-width: 100%; }
   .nav-mobile__row {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     width: auto;
     justify-content: center; }
 
@@ -68,7 +67,7 @@ h4 {
     margin: 0; }
 
 .grid-item {
-  margin: 10px;
+  margin: 10px auto;
   display: flex;
   align-items: center;
   justify-content: space-around; }
@@ -239,18 +238,19 @@ label {
   border-radius: 5px; }
 
 .icon-input {
-  margin-bottom: 10px;
   position: relative;
-  max-width: 323px;
-  margin: 0 auto 1.5em; }
+  margin: 0 auto 1.5em;
+  padding: 5px 10px 0px 10px;
+  box-sizing: border-box;
+  max-width: 96%; }
   .icon-input__text-field {
     width: 100%;
     padding: 5px 30px 5px 5px; }
   .icon-input__icon {
     color: black;
     position: absolute;
-    top: 50%;
-    right: 1rem;
+    top: 52%;
+    right: 1.2rem;
     transform: translateY(-50%); }
   .icon-input__text-field:focus + .icon-input__icon {
     color: #FF8400; }

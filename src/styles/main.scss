@@ -28,6 +28,7 @@ $colors: (
 }
 
 body {
+  width: inherit;
   h1,
   h2,
   h3,
@@ -87,7 +88,7 @@ $grid__bp-md: 768;
   }
   &__row {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     width: auto;
     justify-content: center;
   }
@@ -103,7 +104,7 @@ $grid__bp-md: 768;
 }
 
 .grid-item {
-  margin: 10px;
+  margin: 10px auto;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -298,10 +299,11 @@ label {
 }
 
 .icon-input {
-    margin-bottom: 10px;
-    position: relative;
-    max-width: 323px;
-    margin: 0 auto 1.5em;
+  position: relative;
+  margin: 0 auto 1.5em;
+  padding: 5px 10px 0px 10px;
+  box-sizing: border-box;
+  max-width: 96%;
     &__text-field{
       width: 100%;
       padding: 5px 30px 5px 5px;
@@ -309,8 +311,8 @@ label {
     &__icon{
         color: rgba(0,0,0,1);
         position: absolute;
-        top: 50%;
-        right: 1rem;
+        top: 52%;
+        right: 1.2rem;
         transform: translateY(-50%);
     }
     &__text-field:focus + &__icon{
