@@ -22,4 +22,18 @@ jQuery(document).ready(function($){
     .always(function() {
         console.log( "complete" );
     });
+    $.get("https://api.npoint.io/cdbca0570276cb158572", function(data){
+        // Display the returned data in browser
+        $.each(data.more_products, function (key, val) {
+            $( `<li class='product-list-item'><a href='#' class='product-link'><img src='${val}' alt='prod-n'></a></li>` ).appendTo( $('.products-list'));
+            
+            
+        });
+    })
+    .fail(function() {
+        console.log( "error" );
+    })
+    .always(function() {
+        console.log( "complete" );
+    });
 })

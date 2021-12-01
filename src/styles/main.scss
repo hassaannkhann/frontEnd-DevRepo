@@ -293,9 +293,11 @@ label {
 }
 
 .product-list-item {
-  padding: 0.5em;
   border: 1px solid #5a5a5a;
   border-radius: 5px;
+  .product-link {
+    padding: 0.5em;
+  }
 }
 
 .icon-input {
