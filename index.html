@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Product Details Page</title>
 </head>
 <body>
@@ -38,7 +39,7 @@
                                         <div class="product-single-wrapper">
                                             <div class="product-single--photo">
                                                 <div id="featured-image-877">
-                                                    <img class="product-single__photo image product-single__photo-877" src="src/assets/product-image.webp">
+                                                    <img class="product-single__photo image product-single__photo-877" src="">
                                                 </div>
                                             </div>
                                         </div>
@@ -46,21 +47,18 @@
                                 </div>
                                 <div class="product-details">
                                     <div class="product-single__meta pd-ls">
-                                        <h4 class="product-single__title product-title-big">
-                                            Tiger Medium Red
+                                        <h4 id="id_D" class="product-single__title product-title-big">
+                                            
                                         </h4>
                                     </div>
                                     <div class="price-wrapper pd-ls">
                                         <span id="ProductPrice" class="product-single__price" itemprop="price" content="250">
-                                            AED 250
+                                            
                                         </span>
                                     </div>
                                     <div class="product--size pd-ls">
                                         <span class="defacto">Available Sizes:</span>
-                                        <span>s</span>
-                                        <span>m</span>
-                                        <span>l</span>
-                                        <span>xl</span>
+                                        
                                       </div>
                                     <div class="variation-select-wrapper pd-ls">
                                         <span class="product-single__decs">
@@ -94,12 +92,9 @@
                                           <div class="description-wrapper">
                                               <h4 class="description-head">Description</h4>
                                               <div class="description-text__main">
-                                                  <p class="small">
-                                                      Opt for a bold look with this T-Shirt. With this iconic tiger print on the chest, it is sure to turn heads. Pair it with jogging trousers and sneakers for a casual sportswear look. 
+                                                  <p id="descText" class="small">
                                                   </p>
-                                                  <span>Short sleeved T-Shirt.</span>
-                                                  <span>Round Neck.</span>
-                                                  <span>Tiger embroidered on the chest.</span>
+                                                  
                                               </div>
                                               <hr>
                                           </div>
@@ -134,5 +129,6 @@
         </div>
     </div>
 <script src="src/scripts/main.js"></script>
+<script src="src/scripts/apiRequest.js"></script>
 </body>
 </html>
