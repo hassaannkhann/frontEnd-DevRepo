@@ -9,7 +9,7 @@ export class PDPFeatureImg extends Component {
                     <div className="product-single-wrapper">
                         <div className="product-single--photo">
                             <div id="featured-image-877">
-                                <img className="product-single__photo image product-single__photo-877" src={FeaturedImg}/>
+                                <img className="product-single__photo image product-single__photo-877" src={FeaturedImg} alt="Featured"/>
                             </div>
                         </div>
                     </div>

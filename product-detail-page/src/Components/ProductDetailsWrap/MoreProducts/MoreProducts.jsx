@@ -13,22 +13,22 @@ export class MoreProducts extends Component {
           <div className="products-list--main">
             <ul className="products-list">
               <li className="product-list-item">
-                <a href="#" className="product-link">
+                <a href="/Test" className="product-link">
                   <img src={ProductImg1} alt="prod-n" />
                 </a>
               </li>
               <li className="product-list-item">
-                <a href="#" className="product-link">
+                <a href="/Test" className="product-link">
                   <img src={ProductImg2} alt="prod-n" />
                 </a>
               </li>
               <li className="product-list-item">
-                <a href="#" className="product-link">
+                <a href="/Remote" className="product-link">
                   <img src={ProductImg3} alt="prod-n" />
                 </a>
               </li>
               <li className="product-list-item">
-                <a href="#" className="product-link">
+                <a href="Remote" className="product-link">
                   <img src={ProductImg4} alt="prod-n" />
                 </a>
               </li>

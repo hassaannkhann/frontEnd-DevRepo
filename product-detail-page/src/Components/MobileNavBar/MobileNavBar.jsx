@@ -6,19 +6,19 @@ export class MobileNavBar extends Component {
       <nav className="nav-mobile">
         <ul className="nav-mobile__row">
           <li className="grid-item">
-            <a href="#">Men</a>
+            <a href="/text">Men</a>
           </li>
           <li className="grid-item">
-            <a href="#">Women</a>
+            <a href="/text">Women</a>
           </li>
           <li className="grid-item">
-            <a href="#">Kids</a>
+            <a href="/text">Kids</a>
           </li>
           <li className="grid-item">
-            <a href="#">FTW</a>
+            <a href="/text">FTW</a>
           </li>
           <li className="grid-item">
-            <a href="#">Accessories</a>
+            <a href="/text">Accessories</a>
           </li>
         </ul>
       </nav>
