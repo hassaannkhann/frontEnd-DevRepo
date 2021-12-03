@@ -55,3 +55,8 @@ Use _docker-compose up_ to set up the container
 | Step 2 | hassaannkhann/frontEnd-DevRepo/tree/Step-2 |
 | Step 3 | hassaannkhann/frontEnd-DevRepo/tree/Step-3 |
 | Step 4 | hassaannkhann/frontEnd-DevRepo/tree/Step-4 |
+
+## Deployment
+
+The ReactJS App is deployed at this link:
+https://react-frontendev.herokuapp.com/
